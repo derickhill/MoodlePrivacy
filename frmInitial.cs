@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Windows.Forms;
-using System.Timers;
 using System.Threading.Tasks;
 using System.IO;
 
@@ -34,7 +26,7 @@ namespace MoodlePrivacy
         {
             try
             {
-                usernameAndPassword = System.IO.File.ReadAllLines(@"LoginInfo.txt");
+                usernameAndPassword = System.IO.File.ReadAllLines(@"C:LoginInfo.txt");
                 moodleLinks = System.IO.File.ReadAllLines(@"MoodleLinksInfo.txt");
                 moduleCodes = System.IO.File.ReadAllLines(@"ModuleCodesInfo.txt");
 
@@ -131,83 +123,6 @@ namespace MoodlePrivacy
                         break;
                     }
                 }
-                
-                /*if (notBusy)
-                {
-                    //WRAV101
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/course/view.php?id=2337");
-                }
-                else
-                {
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/login/index.php");
-                    break;
-                }
-                if (notBusy)
-                {
-                    await PutTaskDelay();
-                    //WRSC111
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/course/view.php?id=800");
-                }
-                else
-                {
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/login/index.php");
-                    break;
-                }
-                if (notBusy)
-                {
-                    await PutTaskDelay();
-                    //MAPV101
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/course/view.php?id=5669");
-                }
-                else
-                {
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/login/index.php");
-                    break;
-                }
-                if (notBusy)
-                {
-                    await PutTaskDelay();
-                    //MAPV111
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/course/view.php?id=280");
-                }
-                else
-                {
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/login/index.php");
-                    break;
-                }
-                if (notBusy)
-                {
-                    await PutTaskDelay();
-                    //MATT101
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/course/view.php?id=6031");
-                }
-                else
-                {
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/login/index.php");
-                    break;
-                }
-                if (notBusy)
-                {
-                    await PutTaskDelay();
-                    //LEARNING-ONLINE-101
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/course/view.php?id=6702");
-                }
-                else
-                {
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/login/index.php");
-                    break;
-                }
-                if (notBusy)
-                {
-                    await PutTaskDelay();
-                    //STAS101
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/course/view.php?id=6584");
-                }
-                else
-                {
-                    this.webBrowser1.Navigate("https://learn.mandela.ac.za/login/index.php");
-                    break;
-                }*/
             }
         }
 

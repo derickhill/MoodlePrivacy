@@ -1,0 +1,11 @@
+C:\Users\Derick\source\repos\MoodlePrivacy\bin\Release\MoodlePrivacy.exe.config
+C:\Users\Derick\source\repos\MoodlePrivacy\bin\Release\MoodlePrivacy.exe
+C:\Users\Derick\source\repos\MoodlePrivacy\bin\Release\MoodlePrivacy.pdb
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.csprojAssemblyReference.cache
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.FrmSettings.resources
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.FrmInitial.resources
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.Properties.Resources.resources
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.csproj.GenerateResource.cache
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.csproj.CoreCompileInputs.cache
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.exe
+C:\Users\Derick\source\repos\MoodlePrivacy\obj\Release\MoodlePrivacy.pdb

@@ -50,8 +50,11 @@
             this.LblPassword = new System.Windows.Forms.Label();
             this.LblModuleCode = new System.Windows.Forms.Label();
             this.LblMoodleLink = new System.Windows.Forms.Label();
-            this.BtnSave = new System.Windows.Forms.Button();
+            this.BtnSaveAll = new System.Windows.Forms.Button();
             this.BtnBack = new System.Windows.Forms.Button();
+            this.BtnSaveLoginInfo = new System.Windows.Forms.Button();
+            this.BtnSaveCodes = new System.Windows.Forms.Button();
+            this.BtnSaveLinks = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtUsername
@@ -218,15 +221,15 @@
             this.LblMoodleLink.TabIndex = 21;
             this.LblMoodleLink.Text = "Moodle Link";
             // 
-            // BtnSave
+            // BtnSaveAll
             // 
-            this.BtnSave.Location = new System.Drawing.Point(713, 399);
-            this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(76, 26);
-            this.BtnSave.TabIndex = 22;
-            this.BtnSave.Text = "Save";
-            this.BtnSave.UseVisualStyleBackColor = true;
-            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
+            this.BtnSaveAll.Location = new System.Drawing.Point(712, 421);
+            this.BtnSaveAll.Name = "BtnSaveAll";
+            this.BtnSaveAll.Size = new System.Drawing.Size(76, 26);
+            this.BtnSaveAll.TabIndex = 22;
+            this.BtnSaveAll.Text = "Save all";
+            this.BtnSaveAll.UseVisualStyleBackColor = true;
+            this.BtnSaveAll.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // BtnBack
             // 
@@ -238,13 +241,46 @@
             this.BtnBack.UseVisualStyleBackColor = true;
             this.BtnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
+            // BtnSaveLoginInfo
+            // 
+            this.BtnSaveLoginInfo.Location = new System.Drawing.Point(500, 93);
+            this.BtnSaveLoginInfo.Name = "BtnSaveLoginInfo";
+            this.BtnSaveLoginInfo.Size = new System.Drawing.Size(141, 25);
+            this.BtnSaveLoginInfo.TabIndex = 25;
+            this.BtnSaveLoginInfo.Text = "Save login info";
+            this.BtnSaveLoginInfo.UseVisualStyleBackColor = true;
+            this.BtnSaveLoginInfo.Click += new System.EventHandler(this.BtnSaveLoginInfo_Click);
+            // 
+            // BtnSaveCodes
+            // 
+            this.BtnSaveCodes.Location = new System.Drawing.Point(13, 422);
+            this.BtnSaveCodes.Name = "BtnSaveCodes";
+            this.BtnSaveCodes.Size = new System.Drawing.Size(188, 25);
+            this.BtnSaveCodes.TabIndex = 26;
+            this.BtnSaveCodes.Text = "Save module codes (optional)";
+            this.BtnSaveCodes.UseVisualStyleBackColor = true;
+            this.BtnSaveCodes.Click += new System.EventHandler(this.BtnSaveCodes_Click);
+            // 
+            // BtnSaveLinks
+            // 
+            this.BtnSaveLinks.Location = new System.Drawing.Point(335, 422);
+            this.BtnSaveLinks.Name = "BtnSaveLinks";
+            this.BtnSaveLinks.Size = new System.Drawing.Size(197, 25);
+            this.BtnSaveLinks.TabIndex = 27;
+            this.BtnSaveLinks.Text = "Save links";
+            this.BtnSaveLinks.UseVisualStyleBackColor = true;
+            this.BtnSaveLinks.Click += new System.EventHandler(this.BtnSaveLinks_Click);
+            // 
             // FrmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnSaveLinks);
+            this.Controls.Add(this.BtnSaveCodes);
+            this.Controls.Add(this.BtnSaveLoginInfo);
             this.Controls.Add(this.BtnBack);
-            this.Controls.Add(this.BtnSave);
+            this.Controls.Add(this.BtnSaveAll);
             this.Controls.Add(this.LblMoodleLink);
             this.Controls.Add(this.LblModuleCode);
             this.Controls.Add(this.LblPassword);
@@ -298,7 +334,10 @@
         private System.Windows.Forms.Label LblPassword;
         private System.Windows.Forms.Label LblModuleCode;
         private System.Windows.Forms.Label LblMoodleLink;
-        private System.Windows.Forms.Button BtnSave;
+        private System.Windows.Forms.Button BtnSaveAll;
         private System.Windows.Forms.Button BtnBack;
+        private System.Windows.Forms.Button BtnSaveLoginInfo;
+        private System.Windows.Forms.Button BtnSaveCodes;
+        private System.Windows.Forms.Button BtnSaveLinks;
     }
 }
